@@ -13,3 +13,10 @@
 	line-height: 32px;
 	font-family: 'Tw Cen MT';
 }
+
+@font-face {
+	font-family: "Tw Cen MT";
+	src: url(fonts/Tw Cen MT.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
