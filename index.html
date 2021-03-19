@@ -1,75 +1,129 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, inital-scale=1">
-	<title>Home</title>
-	<link rel="shortcut icon icon" type="image/png" href="img/favicon.png" />
-	<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title>Home</title>
+    <link rel="shortcut icon icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .banner {
+            background: #009579;
+        }
+
+        .banner__content {
+            padding: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+        .banner__text {
+            flex-grow: 1;
+            line-height: 1.4;
+            font-family: 'Quicksand' , sans-serif;
+        }
+
+        .banner__close {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .banner__text,
+        .banner__close > span {
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body background="img/web_bg.png" text="white">
 
-	<nav style="position: fixed; top: 0; ">
-		<h1 class="logo" style="position: fixed; top: 0;">Logo Here</h1>
-		<ul>
-			<li><a href="index.html" class="hover">Home</a></li>
-			<li><a href="stream.html" class="hover">Twitch</a></li>
-			<li><a href="https://glimesh.tv/cbtec" target="_blank" class="hover">Glimesh</a></li>
-			<li><a href="copyright.html" class="hover">Copyright</a></li>
-		</ul>
-	</nav>
-	<br />
-	<marquee style="position: fixed; top: 50px; " class="scroll">A new version of cbtec.org has been deployed
-	onto GitHub to the website. Twitch, Glimesh and Copyright pages were added in the update. 404 pages were fixed
-	along with many other bugs in this update. If you haven't applied the update, please locate the "Apply Updates"
-	button at the bottom of the website or refresh the site. Report any issues to the Twitter account @UKcbtec
-	. Thank you for your patience and have a great day! :D</marquee>
-	<br />
+    <nav>
+        <h1 class="logo" style="position: fixed; top: 0;">Logo Here</h1>
+        <ul>
+            <li><a href="index.html" class="hover">Home</a></li>
+            <li><a href="stream.html" class="hover">Twitch</a></li>
+            <li><a href="https://glimesh.tv/cbtec" target="_blank" class="hover">Glimesh</a></li>
+            <li><a href="copyright.html" class="hover">Copyright</a></li>
+        </ul>
+    </nav>
 
-	<center><h1 class="head">Welcome!</h1> </center>
-	<center><h2 class="subhead">This is a bit bland</h2></center>
+    <div class="banner">
+        <div class="banner__content">
+            <div class="banner__text">
+                <strong>Reminder:</strong> The website is still in heavy development, so do expect some bugs. Please
+                report bugs in the reporting menu.
+                <button class="banner__close" type="button">
+                    <span class="material-icons">
+                        close
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".banner__close").addEventListener("click", function () {
+            this.closest(".banner").style.display = "none";
+        });
+    </script>
 
-
-	<p class="paragraph">
-		We're completely redesigning the site this time, purely coded through HTML developed by me. This page is
-		bland as it is temporary. We hope to preview some of our features when our Alpha stage launches but
-		for now, feel free to click the text links below.
-	</p>
-	<br />
-	<center><a href="https://www.twitch.tv/cbtec" target="_blank" class="paragraph">Twitch</a></center>
-	<center><a href="https://merch.streamelements.com/cbtec-4502" target="_blank" class="paragraph">Merch</a></center>
-	<center><a href="https://www.twitter.com/cbtec_XBX" target="_blank" class="paragraph">Twitter</a></center>
-	<center><a href="https://streamelements.com/cbtec-4502" target="_blank" class="paragraph">Tip</a></center>
-	<center><a href="https://glimesh.tv/cbtec" target="_blank" class="paragraph">Glimesh</a></center>
-	<center><a href="https://www.youtube.com/cbtecyt" target="_blank" class="paragraph">YouTube</a></center>
-
-	<center><h2 class="subhead">Business Email</h2> </center>
-	<center>
-		<p class="paragraph">
-			businesscbtec@gmail.com
-		</p>
-	</center>
-
-	<br>
+    <marquee class="scroll">
+        A new version of cbtec.org has been deployed
+        onto GitHub to the website. Twitch, Glimesh and Copyright pages were added in the update. 404 pages were fixed
+        along with many other bugs in this update. If you haven't applied the update, please locate the "Apply Updates"
+        button at the bottom of the website or refresh the site. Report any issues to the Twitter account @UKcbtec
+        . Thank you for your patience and have a great day! :D
+    </marquee>
 
 
 
-	<center>
-		<p>
-			© cbtec 2021
-		</p>
-	</center>
-	<center>
-		<p>
-			Copyright 2021 cbtec. Reproduction is not permitted, for more info on copyright <a href="copyright.html" target="_blank">click here.</a>
-		</p>
-		<a href="//www.dmca.com/Protection/Status.aspx?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" alt="DMCA.com Protection Status" /></a>
-		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
-	</center>
+    <center><h1 class="head">Welcome!</h1> </center>
+    <center><h2 class="subhead">This is a bit bland</h2></center>
+
+
+    <p class="paragraph">
+        We're completely redesigning the site this time, purely coded through HTML developed by me. This page is
+        bland as it is temporary. We hope to preview some of our features when our Alpha stage launches but
+        for now, feel free to click the text links below.
+    </p>
+    <br />
+    <center><a href="https://www.twitch.tv/cbtec" target="_blank" class="paragraph">Twitch</a></center>
+    <center><a href="https://merch.streamelements.com/cbtec-4502" target="_blank" class="paragraph">Merch</a></center>
+    <center><a href="https://www.twitter.com/cbtec_XBX" target="_blank" class="paragraph">Twitter</a></center>
+    <center><a href="https://streamelements.com/cbtec-4502" target="_blank" class="paragraph">Tip</a></center>
+    <center><a href="https://glimesh.tv/cbtec" target="_blank" class="paragraph">Glimesh</a></center>
+    <center><a href="https://www.youtube.com/cbtecyt" target="_blank" class="paragraph">YouTube</a></center>
+
+    <center><h2 class="subhead">Business Email</h2> </center>
+    <center>
+        <p class="paragraph">
+            businesscbtec@gmail.com
+        </p>
+    </center>
+
+    <br>
+
+
+
+    <center>
+        <p>
+            © cbtec 2021
+        </p>
+    </center>
+    <center>
+        <p>
+            Copyright 2021 cbtec. Reproduction is not permitted, for more info on copyright <a href="copyright.html" target="_blank">click here.</a>
+        </p>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" alt="DMCA.com Protection Status" /></a>
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+    </center>
 
 </body>
 </html>
-
-
-
-
