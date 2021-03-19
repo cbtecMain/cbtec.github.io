@@ -14,6 +14,11 @@
 	line-height: 32px;
 	font-family: 'Tw Cen MT';
 }
+.subhead2 {
+	font-size: 35px;
+	line-height: 32px;
+	font-family: 'Tw Cen MT';
+}
 @font-face {
 	font-family: 'Tw Cen MT';
 	src: url(fonts/Tw-Cen-MT.ttf);
@@ -99,11 +104,18 @@ ul {
 			
 		}
 
-		.logo {
-			text-indent: -9999999px;
-			background: url('img/favicon.png');
-			width: 32px;
-			height: 32px;
-			left: 25px;
-			bottom: 25px;
-		}
+.logo {
+	text-indent: -9999999px;
+	background: url('img/favicon.png');
+	width: 32px;
+	height: 32px;
+	left: 25px;
+	bottom: 25px;
+	margin-top: 10px;
+}
+.scroll {
+	font-size: 35px;
+	line-height: 45px;
+	font-family: 'Tw Cen MT';
+	margin: 0px 300px;
+}
