@@ -93,7 +93,7 @@ ul {
 		left: 0;
 		background-color: red;
 		transform-origin: bottom right;
-		transition: transform 0.15s ease-out;
+		transition: transform 0.3s ease-out;
 	}
 
 	.hover:hover::before {
@@ -111,7 +111,7 @@ ul {
 	left: 0;
 	background-color: red;
 	transform-origin: bottom right;
-	transition: transform 0.15s ease-out;
+	transition: transform 0.3s ease-out;
 }
 
 .hover2:hover::before {
@@ -159,3 +159,20 @@ nav {
 	background: #2A2A2A;
 }
 
+.twitter-timeline {
+	width: 32px;
+	height: 32px;
+	left: 0px;
+	right: 235px;
+	bottom: 25px;
+	margin-top: 0px;
+	margin-left: 1600px;
+	margin-top: -17px;
+}
+
+.paragraph2 {
+	font-size: 35px;
+	line-height: 45px;
+	font-family: 'Tw Cen MT';
+	margin: -400px 300px;
+}
