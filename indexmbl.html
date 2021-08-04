@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link rel="shortcut icon icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+            border-radius: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            border: 5px solid #26192b;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            background-color: #3d3c3c
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: rgb(61 60 60 / 0.91)
+            }
+    </style>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .banner {
+            background: #009579;
+        }
+
+        .banner__content {
+            padding: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .banner__text {
+            flex-grow: 1;
+            line-height: 1.4;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .banner__close {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+            .banner__text,
+            .banner__close > span {
+                color: #ffffff;
+            }
+    </style>
+
+</head>
+<body background="img/web_bg.png" text="white">
+    <div class="load-wrapper">
+        <div class="load-elements">
+            <div class="load"></div>
+            <p class="paragraph3">Just a sec..</p>
+        </div>
+    </div>
+    <script scr="main.js"></script>
+    <nav class="denynav">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="downchkr.html" class="hamburger-text">Downchkr</a></li>
+                <li><a href="stream.html" class="hamburger-text">Twitch</a></li>
+                <li><a href="changelog.html" class="hamburger-text">Change Log</a></li>
+                <li><a href="george.html" class="hamburger-text">George</a></li>
+                <li><a href="matty.html" class="hamburger-text">Matty</a></li>
+                <li><a href="michael.html" class="hamburger-text">Michael</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!---
+    <div class="banner">
+        <div class="banner__content">
+            <div class="banner__text">
+                <strong>Update:</strong> A new version has been deployed. Click
+                <a href="changelog.html">here</a> for the change log.
+                <button class="banner__close" type="button">
+                    <span class="material-icons" title="Close">
+                        close
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+        -->
+    <script>
+        document.querySelector(".banner__close").addEventListener("click", function () {
+            this.closest(".banner").style.display = "none";
+        });
+    </script>
+    <center><h1 class="head">Welcome!</h1> </center>
+    <center><h2 class="subhead">Latest Update</h2></center>
+
+
+    <p class="paragraph">
+        Brand new menu system and partners. New menu system includes drop downs and features <br /> that were  scrapped along the way.
+        learn more about the changes <a href="changelog.html">here.</a> Partner pages <br />
+        backgrounds, fonts, socials and paragraphs were specifically chosen by the partners <br />
+        themselves.
+    </p>
+    <br /><br />
+    <div class="partner-panel">
+        <a href="george.html" tooltip="George"><img src="img/George_logo.png" class="img-george" alt="George"><img></a>
+        <a href="michael.html" tooltip="Michael"><img src="img/Michael_logo.jpg" class="img-michael" alt="Michael"><img></a>
+        <a href="matty.html" tooltip="Matty"><img src="img/Matty_logo.png" class="img-matty" alt="Matty"><img></a>
+        <p class="paragraph">George Michael Matty</p>
+    </div>
+    <br /><br />
+    <hr class="hr">
+    <h1 class="subhead">Social Media</h1>
+    <div class="socials">
+        <a href="https://www.twitch.tv/cbtec" target="_blank" tooltip="Twitch"><img src="img/Twitch_logo.png" class="img-twitch" alt="Twitch"><img></a>
+        <a href="https://merch.streamelements.com/cbtec-4502" target="_blank"><img src="img/Streamelements_logo.png" class="img-merch" alt="Merch"><img></a>
+        <a href="https://www.twitter.com/cbtec_XBX" target="_blank"><img src="img/Twitter_logo.png" class="img-merch" alt="Twitter"><img></a>
+        <a href="https://www.youtube.com/cbtecyt" target="_blank"><img src="img/YouTube_logo.png" class="img-youtube" alt="YouTube"><img></a>
+        <a href="downchkr.html"><img src="img/Downchkr_logo.png" class="img-downchkr" alt="img-downchkr"><img></a>
+        <a href="https://streamelements.com/cbtec-4502/tip" target="_blank"><img src="img/Tip_icon.png" class="img-tip" alt="Tip"><img></a>
+        <p class="paragraph">Twitch Merch Twitter YouTube Downchkr Tip</p>
+    </div>
+    <script>
+        if (document.documentElement.clientWidth > 760) {
+            window.location = "index.html";
+        }
+    </script>
+    <center><h2 class="subhead">Business Email</h2> </center>
+    <center>
+        <p class="paragraph">
+            businesscbtec@gmail.com
+        </p>
+    </center>
+    <!-----<div class="container">
+            <form action="">
+                <h1 class="subhead">Join Our Newsletter</h1>
+                <div class="email-box">
+                    <i class="envelope"></i>
+                    <input class="tbox" type="email" name="" value="" placeholder="Pop your E-Mail here.">
+                    <button class="btn2" type="button" name="button">Subscribe</button>
+                </div>
+            </form>
+        </div>
+        --->
+    <br>
+
+
+
+    <center>
+        <p>
+            © cbtec 2021
+        </p>
+    </center>
+    <center>
+        <p>
+            Copyright 2021 cbtec. Reproduction is not permitted, for more info on copyright <a href="copyright.html" target="_blank">click here.</a>
+        </p>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=70641cb6-40df-495c-9ed1-0b5da500f1bc" alt="DMCA.com Protection Status" /></a>
+        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <script scr="server.js"></script>
+    <div class="cookie-container">
+        <p>
+            We use cookies in this website to give you the best experience on our
+            site and show you relevant ads. To find out more, read our
+            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+        </p>
+
+        <button class="cookie-btn">
+            I understand
+        </button>
+    </div>
+
+    <script src="main.js"></script>
+
+
+
+</body>
+    </html>
