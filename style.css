@@ -260,7 +260,7 @@ body {
 }
 
 .banner-warn {
-	background: #FFA500;
+	background: #FF5733;
 	opacity: 0;
 	animation: fadein 0.25s ease-in forwards 0.25s;
 }
