@@ -1,7 +1,7 @@
 # cbtec.org
 # Website Update
 
-We are currently implementing a site update and the index page will return soon.
+The site update is now completed. We are now recovering the site.
 
 If there is no maintenance scheduled, please @UKcbtec on Twitter.
 
