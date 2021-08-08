@@ -1,6 +1,9 @@
-# cbtec.github.io
+# cbtec.org
+# Website Update
 
-If you're seeing this the site has encountered a major problem.
+We are currently implementing a site update and the index page will return soon.
+
+If there is no maintenance scheduled, please @UKcbtec on Twitter.
 
 Please stay with us, we're reviewing it and will have the issue fixed ASAP.
 
