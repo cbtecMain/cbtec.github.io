@@ -259,12 +259,6 @@ body {
 	animation: fadein 0.25s ease-in forwards 0.25s;
 }
 
-.banner-warn {
-	background: #FF5733;
-	opacity: 0;
-	animation: fadein 0.25s ease-in forwards 0.25s;
-}
-
 .banner__content {
 	padding: 10px;
 	max-width: 1000px;
@@ -996,4 +990,67 @@ nav {
 	text-align: left;
 	opacity: 0;
 	animation: fadein 0.5s ease-in forwards 1.75s;
+}
+
+.description {
+	background: rgb(47 54 64);
+	width: 300px;
+	height: 315px;
+}
+
+.video {
+	left: 0;
+	float: left;
+}
+
+.description {
+	left: 570px;
+	float: left;
+}
+
+.placeholder3 {
+	display: flex;
+	justify-content: center;
+	z-index: 8;
+}
+
+.paragraph7 {
+	font-size: 15px;
+	line-height: 19px;
+	font-family: 'Arial Rounded MT';
+	margin: auto;
+	text-align: center;
+}
+
+.subhead6 {
+	font-size: 50px;
+	line-height: 10px;
+	font-family: 'Tw Cen MT';
+	text-align: center;
+}
+
+.mature {
+	background: #ff7500;
+	width: 350px;
+	height: 20px;
+	position: absolute;
+	margin: 0 525px 0;
+	z-index: 10;
+	opacity: 0;
+	animation: fadein 0.5s ease-in forwards 1.75s;
+	border-radius: 10px;
+}
+
+.mature-holder {
+	animation: fadeout 0.5s ease-in forwards 10s;
+}
+
+.mature2 {
+	background: #ff7500;
+	width: 300px;
+	height: 20px;
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+	animation: fadein 0.5s ease-in forwards 0.25s;
 }
