@@ -248,7 +248,7 @@ html,
 body {
 	margin: 0;
 	background-repeat: no-repeat;
-  	background-attachment: fixed;
+	background-attachment: fixed;
 }
 
 .banner-wrapper {
@@ -340,6 +340,9 @@ body {
 @Keyframes fadeout {
 	100% {
 		opacity: 0;
+	}
+	0% {
+		opacity: 100;
 	}
 }
 
@@ -1065,3 +1068,51 @@ nav {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+.img-banner-george {
+	width: 622.22px;
+	height: 350px;
+	border-radius: 15px 15px 15px 15px;
+	animation: scaledw .15s ease-out forwards;
+}
+
+.img-banner-george:hover {
+	width: 622.22px;
+	height: 350px;
+	border-radius: 15px 15px 15px 15px;
+	animation: scale .15s ease-in forwards;
+}
+
+.img-banner-michael {
+	width: 622.22px;
+	height: 350px;
+	border-radius: 15px 15px 15px 15px;
+	animation: scaledw .15s ease-out forwards;
+}
+
+.img-banner-michael:hover {
+	width: 622.22px;
+	height: 350px;
+	border-radius: 15px 15px 15px 15px;
+	animation: scale .15s ease-in forwards;
+}
+
+.img-banner-matty {
+	width: 622.22px;
+	height: 350px;
+	border-radius: 15px 15px 15px 15px;
+	animation: scaledw .15s ease-out forwards;
+}
+
+.img-banner-matty:hover {
+	width: 622.22px;
+	height: 350px;
+	border-radius: 15px 15px 15px 15px;
+	animation: scale .15s ease-in forwards;
+}
+
+.partner-panel {
+	text-align: center;
+	opacity: 0;
+	animation: fadein 0.25s ease-in forwards 0.25s;
+}
