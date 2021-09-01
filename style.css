@@ -1120,8 +1120,18 @@ nav {
 
 .footer {
 	font-size: 16px;
-	font-family: 'BebasNeue-Regular';
+	font-family: 'Bebas Neue';
 	text-align: center;
 	opacity: 0;
 	animation: fadein 0.25s ease-in forwards 1s;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Arial Rounded MT';
+	src: url(fonts/Arial_Rounded_MT.ttf);
 }
