@@ -1120,7 +1120,7 @@ nav {
 
 .footer {
 	font-size: 16px;
-	font-family: 'BebasNeue-Regular.ttf';
+	font-family: 'BebasNeue-Regular';
 	text-align: center;
 	opacity: 0;
 	animation: fadein 0.25s ease-in forwards 1s;
