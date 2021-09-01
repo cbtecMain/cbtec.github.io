@@ -1117,3 +1117,11 @@ nav {
 	opacity: 0;
 	animation: fadein 0.25s ease-in forwards 0.25s;
 }
+
+.footer {
+	font-size: 16px;
+	font-family: 'BebasNeue-Regular.ttf';
+	text-align: center;
+	opacity: 0;
+	animation: fadein 0.25s ease-in forwards 1s;
+}
