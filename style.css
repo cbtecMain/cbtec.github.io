@@ -1135,3 +1135,9 @@ nav {
 	font-family: 'Arial Rounded MT';
 	src: url(fonts/Arial_Rounded_MT.ttf);
 }
+
+.banner-warn {
+	background: #ff7500;
+	opacity: 0;
+	animation: fadein 0.25s ease-in forwards 0.25s;
+}
