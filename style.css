@@ -1143,7 +1143,7 @@ nav {
 }
 
 .nonmature {
-	background: ##33FF7D;
+	background: #33FF7D;
 	width: 350px;
 	height: 20px;
 	position: absolute;
@@ -1152,4 +1152,14 @@ nav {
 	opacity: 0;
 	animation: fadein 0.5s ease-in forwards 1.75s;
 	border-radius: 10px;
+}
+
+.mature2 {
+	background: #33FF7D;
+	width: 300px;
+	height: 20px;
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+	animation: fadein 0.5s ease-in forwards 0.25s;
 }
